@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Montserrat:wght@700&display=swap");
+
+.bigcont {
+  background-color: green;
+  min-height: 100vh;
+}
+
+.logo {
+  font-family: "Merriweather", serif;
+}
+
+body {
+  background-color: black !important;
+  background: url("./asssets/bg9.svg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.hot {
+  color: rgb(240, 242, 242);
+  margin: 0;
+  font-size: 13px;
+  width: 150px;
+  font-family: "Montserrat", sans-serif;
+}
+.vl {
+  border-left: 2px solid white;
+  height: 80%;
+  margin-right: 7px;
+}
+.slider {
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.12);
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.hotcon {
+  display: flex;
+  flex-direction: row;
+}
+.hotbox {
+  display: flex;
+  align-items: center;
+  margin: 0 5px;
+}
+
+.hotimg {
+  height: 20px;
+  padding: 0px 5px;
+}
+
+.cryimg {
+  height: 70px;
+  width: 70px !important;
+}
+.cryname {
+  font-family: "Montserrat", sans-serif;
+}
+.all {
+  color: white !important;
+  margin-top: 15px;
+  font-family: "Montserrat", sans-serif;
+}
+.crycard {
+  color: white !important;
+  text-align: center !important;
+  background-color: transparent !important;
+  border: 1px solid white !important;
+  margin-top: 10px;
+  min-height: 227px;
+}
+
+.cryprice {
+  color: green;
+  font-family: "Montserrat", sans-serif;
+}
+
+.pagee {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+  font-weight: 900;
+}
+
+.next {
+  background-color: transparent;
+  color: white;
+  border: none;
+  background-color: rgba(52, 52, 210, 0.607);
+  padding: 10px 40px;
+  border-radius: 5px;
+  font-weight: 900;
+}
+
+.prev {
+  background-color: transparent;
+  color: white;
+  background-color: rgba(255, 0, 0, 0.408);
+  border: none;
+  margin-right: 10px;
+  padding: 0 40px;
+  border-radius: 5px;
+  font-weight: 900;
+}
+
+.modalb {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.modalimg {
+  height: 150px;
+  width: 150px;
+}
