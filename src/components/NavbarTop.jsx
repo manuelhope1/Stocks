@@ -11,7 +11,7 @@ const NavbarTop = (props) => {
     <Navbar bg="bg-transparent" expand="lg" variant="dark">
       <Container fluid>
         <Navbar.Brand href="#" className="logo">
-          #ManuelHope's Crypto Prices
+          <h5>#Crypto Prices</h5>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
