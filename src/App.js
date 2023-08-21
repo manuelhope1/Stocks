@@ -9,7 +9,7 @@ import Pagnation from "./components/Pagnation";
 function App() {
   const [info, setInfo] = useState([]);
   const [currentPage, setcurrentPage] = useState(1);
-  const [postPerPage, setpostPerPage] = useState(18);
+  const postPerPage = 18;
   const lastPostIndex = currentPage * postPerPage;
   const firstPostIndex = lastPostIndex - postPerPage;
   const currentposts = info.slice(firstPostIndex, lastPostIndex);

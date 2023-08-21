@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Modal, Table } from "react-bootstrap";
+import React from "react";
+import { Modal } from "react-bootstrap";
 import StockTable from "./StockTable";
 
 const StockModal = (props) => {
@@ -27,7 +27,7 @@ const StockModal = (props) => {
           </button>
         </Modal.Header>
         <Modal.Body className="modalb">
-          <img src={props.info.image} className="modalimg" />
+          <img src={props.info.image} className="modalimg" alt="crypto" />
           <div
             style={{
               width: "100%",
